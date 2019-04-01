@@ -97,7 +97,7 @@ class InputValues extends Component {
           <label htmlFor="">Enter first No:</label>
             <input type="text" onChange={this.changeHandler1} value={this.state.firstNumber}/>
             <label htmlFor="">Enter Second No No:</label>
-            <input type="text" onChange={this.changeHandler2} value={this.state.secondNumber} />
+            <input type="text" onChange={this.changeHandler2} value={this.state.secondNumber}/>
             <button>Find Range</button>
         </form>
        <List arr={this.state.newArr} />
